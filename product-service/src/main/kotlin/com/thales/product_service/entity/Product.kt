@@ -11,6 +11,6 @@ data class Product(
     val type: String,
     val price: Double,
     val description: String,
-    val imageUrls: String? = null,
+    val imageNames: List<String>? = null,
     @Id val id: String? = null
 )
